@@ -1,0 +1,39 @@
+{
+  "name": "ngCustomerVoice",
+  "version": "0.1.0",
+  "description": "Angular.js client for user sending support emails",
+  "main": "./js/ngCustomerVoice.js",
+  "keywords": [
+    "angular.js",
+    "modals",
+    "popups",
+    "dialog",
+    "ng",
+    "provider",
+    "factory",
+    "directive",
+    "uservoice",
+    "intercome",
+    "emails",
+    "feedback"
+  ],
+  "author": {
+    "name": "Dmitri Voronianski",
+    "email": "dmitri.voronianski@gmail.com",
+    "web": "http://pixelhunter.me",
+    "twitter": "voronianski"
+  },
+  "bugs": "https://github.com/likeastore/ngCustomerVoice/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/likeastore/ngCustomerVoice"
+  },
+  "readmeFilename": "README.md",
+  "license": "MIT",
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "grunt-contrib-jshint": "~0.7.2",
+    "grunt-contrib-uglify": "~0.2.7",
+    "grunt-contrib-cssmin": "^0.9.0"
+  }
+}
