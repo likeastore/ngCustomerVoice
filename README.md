@@ -1,6 +1,6 @@
 # ngCustomerVoice
 
-Small Angular.js provider for sending feedback, Q&A and support for your application. It can be used as replacement for [Intercom](https://www.intercom.io) or [Uservoice](https://www.uservoice.com/) messaging plugins.
+Small [Angular.js](http://angularjs.org) provider for sending feedback, Q&A and support for your application. It can be used as replacement for [Intercom](https://www.intercom.io) or [Uservoice](https://www.uservoice.com/) messaging plugins.
 
 [![](https://farm8.staticflickr.com/7346/14003765983_137b61a269_c.jpg)](http://likeastore.github.io/ngCustomerVoice)
 

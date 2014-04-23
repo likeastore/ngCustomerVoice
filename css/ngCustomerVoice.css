@@ -14,7 +14,7 @@
 	right: 20px;
 	text-align: center;
 	width: 42px;
-	z-index: 99999999;
+	z-index: 9999;
 	-webkit-animation: ngdialog-fadein .5s;
 	animation: ngdialog-fadein .5s;
 }
