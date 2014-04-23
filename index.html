@@ -37,6 +37,7 @@
 	var app = angular.module('TestApp', ['ngDialog', 'ngCustomerVoice']);
 	app.config(['ngCustomerVoiceProvider', function (ngCustomerVoiceProvider) {
 		ngCustomerVoiceProvider.apiUrl('/your/email/server');
+		ngCustomerVoiceProvider.closeBeforeSend(true);
 	}]);
 	</script>
 </body>
