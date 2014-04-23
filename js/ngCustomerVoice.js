@@ -4,10 +4,15 @@
 	var plugin = angular.module('ngCustomerVoice', ['ngDialog']);
 
 	plugin.provider('ngCustomerVoice', function () {
-		var url = null;
+		var url = false;
+		var closeBeforeSend = false;
 
 		this.apiUrl = function (_url) {
 			url = _url || url;
+		};
+
+		this.closeBeforeSend = function (_close) {
+			closeBeforeSend = _close || closeBeforeSend;
 		};
 
 		this.$get = ['$http', 'ngDialog',
@@ -28,6 +33,10 @@
 						}
 						if (!data.message || typeof data.message !== 'string') {
 							throw new Error('Message string is required');
+						}
+
+						if (closeBeforeSend) {
+							ngDialog.closeAll();
 						}
 
 						return this._makeRequest(data);
