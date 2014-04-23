@@ -1,0 +1,91 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: none;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+}
+
+body {
+	background: #fff;
+	font: 500 14px 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
+	width: 100%;
+	overflow: hidden;
+}
+
+a {
+	color: #29d;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.wrap {
+	width: 500px;
+	margin: 160px auto 50px;
+	text-align: center;
+}
+
+h1 {
+	color: #272727;
+	font-size: 32px;
+	font-weight: 600;
+	margin: 0 0 20px;
+	cursor: default;
+	-webkit-user-select: none;
+	user-select: none;
+}
+
+p {
+	color: #999;
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 20px;
+	width: 450px;
+	margin: 0 auto 30px;
+}
+
+.hr {
+	height: 1px;
+	width: 100px;
+	margin: 40px auto;
+	background: #ddd;
+}
+
+.socials {
+	width: 330px;
+	margin: 0 auto;
+}
+
+.twitter-share-button {
+	width: 92px !important;
+}
+
+.arrow {
+	position: fixed;
+	bottom: 60px;
+	right: 45px;
+}
+
+.github-ribbon, .github-ribbon:hover {
+	display: block;
+	background: #2d9;
+	color: #fff;
+	font-weight: 300;
+	padding: 8px 50px;
+	position: absolute;
+	top: 35px;
+	right: -45px;
+	text-decoration: none;
+	text-transform: lowercase;
+	-moz-transform: rotate(45deg);
+	-webkit-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	transform: rotate(45deg);
+	z-index: 1;
+}
+
