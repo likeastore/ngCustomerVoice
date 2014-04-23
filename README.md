@@ -2,7 +2,7 @@
 
 Small Angular.js provider for sending feedback, Q&A and support for your application. It can be used as replacement for [Intercom](https://www.intercom.io) or [Uservoice](https://www.uservoice.com/) messaging plugins.
 
-### Usage
+### Install
 
 ngCustomerVoice is a simple angular provider and directive based on [ngDialog](http://likeastore.github.io/ngDialog/) popups. So for proper work you can install it through [Bower](http://bower.io/) package manager (recommended):
 
@@ -12,16 +12,15 @@ bower install ngCustomerVoice
 
 And don't forget to include all necessary javascript and css files to your application:
 
-- ngDialog.css
-- ngCustomerVoice.css
+- ``ngDialog.css``
+- ``ngCustomerVoice.css``
+- ``angular.js``
+- ``ngDialog.js``
+- ``ngCustomerVoice.js``
 
-- angular.js
-- ngDialog.js
-- ngCustomerVoice.js
+### Usage
 
-### Directive
-
-To start using plugin you just need to insert directive into your template:
+To start using plugin you just need to insert **directive** into your template:
 
 ```html
 <div ng-customer-voice="'your.user@email.com'"></div>

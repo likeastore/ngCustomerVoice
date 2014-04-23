@@ -1,7 +1,7 @@
 {
   "name": "ngCustomerVoice",
   "version": "0.1.0",
-  "description": "Angular client for user sending support emails",
+  "description": "Angular.js client for user sending support emails",
   "main": [
       "js/ngCustomerVoice.js",
       "css/ngCustomerVoice.css"
