@@ -1,6 +1,7 @@
 {
   "name": "ngCustomerVoice",
-  "version": "0.1.0",
+  "version": "0.1.1",
+  "homepage": "https://github.com/likeastore/ngCustomerVoice",
   "description": "Angular.js client for user sending support emails",
   "main": "./js/ngCustomerVoice.js",
   "keywords": [
